@@ -96,3 +96,14 @@ padding: 50px 0px;
     font-size: 14px;
     text-align: right;
 }
+
+.header{
+    
+    border-bottom: 1px solid gray;
+}
+
+.header__inner{
+    width: 900px;
+    height:100%;
+    margin: 0 auto;
+}
