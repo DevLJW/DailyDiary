@@ -100,10 +100,37 @@ padding: 50px 0px;
 .header{
     
     border-bottom: 1px solid gray;
+    background-color: yellow;
+   
+   
 }
 
-.header__inner{
+.header-inner{
     width: 900px;
     height:100%;
-    margin: 0 auto;
+    margin: 0 auto; /*위아래 마진 0 양쪽마진 자동(가운데정렬)*/
+
 }
+
+.logo{
+    background-color: red;
+    float: left;
+
+}
+
+.menu{
+    background-color: blue;
+    float: left;
+}
+
+.user{
+    background: green;
+    float: left;
+
+}
+.clearfix{
+    background-color: red;
+    clear: both;
+    
+}
+
